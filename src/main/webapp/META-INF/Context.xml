@@ -13,9 +13,9 @@
     <Resource
         name="SenacDS" auth="Container" type="javax.sql.DataSource"
         maxTotal="10" maxIdle="10" maxWaitMillis="10000"
-        username="" password=""
+        username="senac_teste_user" password="jN0JNM4I4OEGzauQ5fibdKMYN9kw8Da4"
         driverClassName="org.postgresql.Driver"
-        url="postgresql://senac_4ewp_user:e7fgNoWgqy73JUxSapqYyRStsGah5t7c@dpg-d3i3tv8gjchc7380nul0-a.oregon-postgres.render.com/senac_4ewp"
+        url="jdbc:postgresql://dpg-d38tcmjuibrs73a3gjng-a.oregon-postgres.render.com:5432/senac_teste"
         
     />
 </Context>
